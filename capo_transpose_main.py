@@ -5,6 +5,10 @@ lst_out=[]
 for i in range(num):
     lst.append(input("Enter name of the chord: "))
 capo=int(input("Enter the fret number capo is on: "))
+if capo==12:
+    print("Just play the chords an octave higher")
+if capo>12:
+    print("Capo set too high!")
 for x in lst:
     st=x
     stUp=st[0].upper()
@@ -30,6 +34,12 @@ for x in lst:
             stUp="E"
         elif capo==8:
             stUp="F"
+        elif capo==9:
+            stUp="F#"
+        elif capo==10:
+            stUp="G"
+        elif capo==11:
+            stUp="G#"
 #--------------------------------for B--------------------------------------
     elif stUp=="B":
         if capo==0:
@@ -50,6 +60,12 @@ for x in lst:
             stUp="F#"
         elif capo==8:
             stUp="G"  
+        elif capo==9:
+            stUp="G#"
+        elif capo==10:
+            stUp="A"
+        elif capo==11:
+            stUp="A#"
 #----------------------------------for C-----------------------------------       
     elif stUp=="C":
         if capo==0:
@@ -69,7 +85,13 @@ for x in lst:
         elif capo==7:
             stUp="G"
         elif capo==8:
-            stUp="G#" 
+            stUp="G#"
+        elif capo==9:
+            stUp="A"
+        elif capo==10:
+            stUp="A#"
+        elif capo==11:
+            stUp="B"
 
 #----------------------------------for D-----------------------------------       
     elif stUp=="D":
@@ -90,7 +112,13 @@ for x in lst:
         elif capo==7:
             stUp="A"
         elif capo==8:
-            stUp="A#" 
+            stUp="A#"
+        elif capo==9:
+            stUp="B"
+        elif capo==10:
+            stUp="C"
+        elif capo==11:
+            stUp="C#"
         
 #----------------------------------for E-----------------------------------       
     elif stUp=="E":
@@ -111,7 +139,13 @@ for x in lst:
         elif capo==7:
             stUp="B"
         elif capo==8:
-            stUp="C" 
+            stUp="C"
+        elif capo==9:
+            stUp="C#"
+        elif capo==10:
+            stUp="D"
+        elif capo==11:
+            stUp="D#"
         
 #----------------------------------for F-----------------------------------       
     elif stUp=="F":
@@ -133,6 +167,12 @@ for x in lst:
             stUp="C"
         elif capo==8:
             stUp="C#" 
+        elif capo==9:
+            stUp="D"
+        elif capo==10:
+            stUp="D#"
+        elif capo==11:
+            stUp="E"
 
 #----------------------------------for G-----------------------------------       
     elif stUp=="G":
@@ -154,6 +194,12 @@ for x in lst:
             stUp="D"
         elif capo==8:
             stUp="D#" 
+        elif capo==9:
+            stUp="E"
+        elif capo==10:
+            stUp="F"
+        elif capo==11:
+            stUp="F#"
 
 #----------------------------------for A#-----------------------------------       
     elif stUp=="A#" or stUp=="Bb":
@@ -174,7 +220,13 @@ for x in lst:
         elif capo==7:
             stUp="F"
         elif capo==8:
-            stUp="F#" 
+            stUp="F#"
+        elif capo==9:
+            stUp="G"
+        elif capo==10:
+            stUp="G#"
+        elif capo==11:
+            stUp="A"
         
 #----------------------------------for C#-----------------------------------       
     elif stUp=="C#" or stUp=="Db":
@@ -195,7 +247,13 @@ for x in lst:
         elif capo==7:
             stUp="G#"
         elif capo==8:
-            stUp="A"   
+            stUp="A"
+        elif capo==9:
+            stUp="A#"
+        elif capo==10:
+            stUp="B"
+        elif capo==11:
+            stUp="C"
 
 #----------------------------------for D#-----------------------------------       
     elif stUp=="D#" or stUp=="Eb":
@@ -217,6 +275,12 @@ for x in lst:
             stUp="A#"
         elif capo==8:
             stUp="B" 
+        elif capo==9:
+            stUp="C"
+        elif capo==10:
+            stUp="C#"
+        elif capo==11:
+            stUp="D"
 
 #----------------------------------for F#-----------------------------------       
     elif stUp=="F#" or stUp=="Gb":
@@ -238,6 +302,12 @@ for x in lst:
             stUp="C#"
         elif capo==8:
             stUp="D" 
+        elif capo==9:
+            stUp="D#"
+        elif capo==10:
+            stUp="E"
+        elif capo==11:
+            stUp="F"
         
 #----------------------------------for G#-----------------------------------       
     elif stUp=="G#" or stUp=="Ab":
@@ -259,6 +329,12 @@ for x in lst:
             stUp="D#"
         elif capo==8:
             stUp="E" 
+        elif capo==9:
+            stUp="F"
+        elif capo==10:
+            stUp="F#"
+        elif capo==11:
+            stUp="G"
 
 
     if st[1]=="#" or st[1]=="b":
@@ -269,8 +345,3 @@ for x in lst:
         lst_out.append(transposed)
 
 print("Transposed chords are: ",*lst_out,sep=" ")
-    
-    
-    
-
-
