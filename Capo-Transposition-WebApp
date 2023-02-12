@@ -40,8 +40,8 @@ def display_inputs():
     'AADD9','A#ADD9','BBADD9','BADD9','CADD9','C#ADD9','DBADD9','DADD9','D#ADD9','EBADD9','EADD9','FADD9','F#ADD9','GBADD9','GADD9','G#ADD9','ABADD9',
     'AMAJ7','A#MAJ7','BBMAJ7','BMAJ7','CMAJ7','C#MAJ7','DBMAJ7','DMAJ7','D#MAJ7','EBMAJ7','EMAJ7','FMAJ7','F#MAJ7','GBMAJ7','GMAJ7','G#MAJ7','ABMAJ7',
     'AMIN7','A#MIN7','BBMIN7','BMIN7','CMIN7','C#MIN7','DBMIN7','DMIN7','D#MIN7','EBMIN7','EMIN7','FMIN7','F#MIN7','GBMIN7','GMIN7','G#MIN7','ABMIN7',
-    'AM','A#M','BBM','BM','CM','C#M','DBM','DM','D#M','EBM','EM','FM','F#M','GBM','GM','G#M','ABM'
-    'A','A#','BB','B','C','C#','DB','D','D#','EB','E','F','F#','GB','G','G#','AB'
+    'AM','A#M','BBM','BM','CM','C#M','DBM','DM','D#M','EBM','EM','FM','F#M','GBM','GM','G#M','ABM',
+    'A','A#','BB','B','C','C#','DB','D','D#','EB','E','F','F#','GB','G','G#','AB',
     'AADD11','A#ADD11','BBADD11','BADD11','CADD11','C#ADD11','DBADD11','DADD11','D#ADD11','EBADD11','EADD11','FADD11','F#ADD11','GBADD11','GADD11','G#ADD11','ABADD11',
     'A5','A#5','BB5','B5','C5','C#5','DB5','D5','D#5','EB5','E5','F5','F#5','GB5','G5','G#5','AB5',
     'A7','A#7','BB7','B7','C7','C#7','DB7','D7','D#7','EB7','E7','F7','F#7','GB7','G7','G#7','AB7',
