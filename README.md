@@ -9,4 +9,4 @@ Instructions:
 * Enter the fret number on which you would like the capo transposition of
 
 ***UPDATE***:
-I have converted the python script into a working web-app developed using Flask. The web app is hosted via "Python Anywhere". It works in the same way as previously instructed. Changes made to the code is the additional code of Flask and some error handling of possible or allowed chord names has been done. I will try to keep on updating the list of allowed chord names as the possibilities of genuine chord names are endless.
+I have converted the python script into a working web-app developed using Flask. The web app is hosted via "Python Anywhere". It works in the same way as previously instructed. Changes made to the code is the additional code of Flask and some error handling of possible or allowed chord names has been done. I will try to keep on updating the list of allowed chord names as the possibilities of genuine chord names are endless. Check out the latest releases as I might keep changing stuff little by little every now and then.
